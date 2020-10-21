@@ -1,0 +1,47 @@
+{
+  "name": "api-boiler-plate",
+  "script": "src/app.js",
+  "instances": "2",
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": 80,
+    "API_VERSION": "v1",
+    "JWT_SECRET": "mySecretKey",
+    "JWT_TOKEN_EXPIRY_IN_HOURS": 100,
+    "JWT_ADMIN_TOKEN_EXPIRY_IN_HOURS": 5,
+    "MYSQL_DB": "test",
+    "MYSQL_TEST_DB": "test",
+    "MYSQL_PORT": 3306,
+    "MYSQL_HOST": "xxx",
+    "MYSQL_USER": "123456",
+    "MYSQL_PASSWORD": "0",
+    "MYSQL_SSL": true,
+    "PASSWORD_SALT": "4546556465",
+    "AZURE_BLOB_CONNECTION_STRING": "",
+    "AZURE_BLOB_CONTAINER_NAME": "",
+    "AZURE_BLOB_ENABLED": true,
+    "IS_DIR_APPLICATION_LOGS_ENABLED": true,
+    "SENDGRID_ENABLED": true,
+    "SENDGRID_MAIL_KEY": "",
+    "EMAILS_FORM_SUBMISSION_FROM": "",
+    "EMAILS_TO_ADMIN_NOTIFICATION": "",
+    "PUBLIC_URL": "",
+
+    "OTP_CODE_LENGTH": 6,
+    "OTP_EXPIRE_SECONDS": 120,
+
+    "PLIVO_ENABLED": 1,
+    "PLIVO_FROM": 16788904447,
+    "PLIVO_AUTH_ID": "",
+    "PLIVO_AUTH_TOKEN": "",
+
+    "AZURE_VAULT_ENABLED": true,
+    "AZURE_VAULT_CLIENT_ID": "",
+    "AZURE_VAULT_CLIENT_SECRET": "",
+    "AZURE_VAULT_CLIENT_URI": "",
+
+    "REDIS_HOST": "",
+    "REDIS_PORT": 6379,
+    "REDIS_PASSWORD": ""
+  }
+}
